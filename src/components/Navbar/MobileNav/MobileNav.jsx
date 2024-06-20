@@ -30,6 +30,14 @@ const MobileNav = ({ isOpen, toggalMenu }) => {
   const handleScrollToProject = () => {
     scrollToSection("project-card-container");
   };
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = process.env.PUBLIC_URL + "/jibran.pdf"; // Path to the file in the public folder
+    link.download = "Jibran Mehtab.pdf"; // Name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <div
@@ -69,7 +77,7 @@ const MobileNav = ({ isOpen, toggalMenu }) => {
                 Contact Me
               </a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
+            <button className="contact-btn" onClick={downloadResume}>
               Resume
             </button>
           </ul>
