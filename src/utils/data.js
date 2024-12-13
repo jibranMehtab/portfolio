@@ -82,8 +82,16 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "Instrument Of God",
+    date: "Nov 2024 - Dec 2024",
+    responsibilities: [
+      "This is a WordPress website built entirely by me using Elementor Pro, showcasing a seamless integration of design and functionality as per the provided specifications. The project involved creating a visually appealing and responsive layout, designing custom forms for user interaction, and ensuring a professional finish aligned with modern web standards. I also implemented website optimization techniques, including SEO best practices, to enhance search engine visibility and improve performance. This project highlights my expertise in WordPress development, creative design, and attention to detail, ensuring a user-friendly and impactful online presence.",
+    ],
+    link: "https://instrument-ofgod.com/",
+  },
+  {
     title: "Aikidio",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Mar 2024",
     responsibilities: [
       "Proficiently developed and deployed a comprehensive AI-based voice cloning application website from scratch using CodeIgniter 4 framework. Managed end-to-end implementation, including frontend design, backend development, and database integration. Successfully deployed the application on AWS EC2 instances for optimal performance and scalability, leveraging AWS S3 for efficient voice storage management. Demonstrated expertise in cloud computing, web development, and server management to deliver a seamless user experience while ensuring robust data storage and security measures.",
     ],
